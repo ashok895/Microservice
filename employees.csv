@@ -1,0 +1,13 @@
+emp_id,username,password,name,department
+1,john_doe,password123,John Doe,Engineering
+2,jane_smith,password456,Jane Smith,HR
+3,alice_wong,password789,Alice Wong,Finance
+4,bob_jones,password321,Bob Jones,Marketing
+5,charlie_kim,password654,Charlie Kim,IT
+6,diana_lee,password987,Diana Lee,Operations
+7,eric_smith,password111,Eric Smith,Sales
+8,fiona_brown,password222,Fiona Brown,Legal
+9,george_white,password333,George White,Procurement
+10,hannah_green,password444,Hannah Green,Customer Support
+11,ian_black,password555,Ian Black,R&D
+12,julia_gray,password666,Julia Gray,Admin

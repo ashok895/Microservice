@@ -1,0 +1,48 @@
+{"asctime": "2025-04-25 16:21:46,958", "levelname": "INFO", "message": "\u001b[31m\u001b[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\u001b[0m\n * Running on all addresses (0.0.0.0)\n * Running on http://127.0.0.1:5000\n * Running on http://192.168.0.106:5000"}
+{"asctime": "2025-04-25 16:21:46,958", "levelname": "INFO", "message": "\u001b[33mPress CTRL+C to quit\u001b[0m"}
+{"asctime": "2025-04-25 16:21:52,671", "levelname": "WARNING", "message": "Invalid credentials for Employee ID 7"}
+{"asctime": "2025-04-25 16:21:52,671", "levelname": "INFO", "message": "127.0.0.1 - - [25/Apr/2025 16:21:52] \"\u001b[31m\u001b[1mGET /employee?emp_id=7&username=eric_smit&password=password111 HTTP/1.1\u001b[0m\" 401 -"}
+{"asctime": "2025-04-25 16:21:57,638", "levelname": "INFO", "message": "Employee 7 details fetched successfully"}
+{"asctime": "2025-04-25 16:21:57,639", "levelname": "INFO", "message": "127.0.0.1 - - [25/Apr/2025 16:21:57] \"GET /employee?emp_id=7&username=eric_smith&password=password111 HTTP/1.1\" 200 -"}
+{"asctime": "2025-04-25 16:21:59,298", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 1s."}
+{"asctime": "2025-04-25 16:22:00,341", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 2s."}
+{"asctime": "2025-04-25 16:22:01,530", "levelname": "WARNING", "message": "Missing required parameters"}
+{"asctime": "2025-04-25 16:22:01,531", "levelname": "INFO", "message": "127.0.0.1 - - [25/Apr/2025 16:22:01] \"\u001b[31m\u001b[1mGET /employee?username=eric_smith&password=password111 HTTP/1.1\u001b[0m\" 400 -"}
+{"asctime": "2025-04-25 16:22:02,381", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 4s."}
+{"asctime": "2025-04-25 16:22:04,660", "levelname": "INFO", "message": "Employee 7 details fetched successfully"}
+{"asctime": "2025-04-25 16:22:04,660", "levelname": "INFO", "message": "127.0.0.1 - - [25/Apr/2025 16:22:04] \"GET /employee?emp_id=7&username=eric_smith&password=password111 HTTP/1.1\" 200 -"}
+{"asctime": "2025-04-25 16:22:06,425", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 8s."}
+{"asctime": "2025-04-25 16:22:14,455", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 16s."}
+{"asctime": "2025-04-25 16:22:30,527", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 32s."}
+{"asctime": "2025-04-25 16:23:02,717", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 1s."}
+{"asctime": "2025-04-25 16:23:03,758", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 2s."}
+{"asctime": "2025-04-25 16:23:05,802", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 4s."}
+{"asctime": "2025-04-25 16:23:09,839", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 8s."}
+{"asctime": "2025-04-25 16:23:17,884", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 16s."}
+{"asctime": "2025-04-25 16:23:33,919", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 32s."}
+{"asctime": "2025-04-25 20:16:17,760", "levelname": "INFO", "message": "\u001b[31m\u001b[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.\u001b[0m\n * Running on all addresses (0.0.0.0)\n * Running on http://127.0.0.1:5000\n * Running on http://192.168.0.106:5000"}
+{"asctime": "2025-04-25 20:16:17,760", "levelname": "INFO", "message": "\u001b[33mPress CTRL+C to quit\u001b[0m"}
+{"asctime": "2025-04-25 20:16:23,153", "levelname": "INFO", "message": "Employee 7 details fetched successfully"}
+{"asctime": "2025-04-25 20:16:23,155", "levelname": "INFO", "message": "127.0.0.1 - - [25/Apr/2025 20:16:23] \"GET /employee?emp_id=7&username=eric_smith&password=password111 HTTP/1.1\" 200 -"}
+{"asctime": "2025-04-25 20:16:30,073", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 1s."}
+{"asctime": "2025-04-25 20:16:31,133", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 2s."}
+{"asctime": "2025-04-25 20:16:33,183", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 4s."}
+{"asctime": "2025-04-25 20:16:37,237", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 8s."}
+{"asctime": "2025-04-25 20:16:45,279", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 16s."}
+{"asctime": "2025-04-25 20:17:01,363", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 32s."}
+{"asctime": "2025-04-25 20:18:27,301", "levelname": "INFO", "message": "Employee 7 details fetched successfully"}
+{"asctime": "2025-04-25 20:18:27,304", "levelname": "INFO", "message": "127.0.0.1 - - [25/Apr/2025 20:18:27] \"GET /employee?emp_id=7&username=eric_smith&password=password111 HTTP/1.1\" 200 -"}
+{"asctime": "2025-04-25 20:18:28,529", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 1s."}
+{"asctime": "2025-04-25 20:18:29,595", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 2s."}
+{"asctime": "2025-04-25 20:18:31,636", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 4s."}
+{"asctime": "2025-04-25 20:18:35,677", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 8s."}
+{"asctime": "2025-04-25 20:18:43,719", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 16s."}
+{"asctime": "2025-04-25 20:18:45,943", "levelname": "WARNING", "message": "Missing required parameters"}
+{"asctime": "2025-04-25 20:18:45,945", "levelname": "INFO", "message": "127.0.0.1 - - [25/Apr/2025 20:18:45] \"\u001b[31m\u001b[1mGET /employee?username=eric_smith&password=password111 HTTP/1.1\u001b[0m\" 400 -"}
+{"asctime": "2025-04-25 20:18:59,759", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 32s."}
+{"asctime": "2025-04-25 20:19:31,804", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 1s."}
+{"asctime": "2025-04-25 20:19:32,845", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 2s."}
+{"asctime": "2025-04-25 20:19:34,886", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 4s."}
+{"asctime": "2025-04-25 20:19:38,934", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 8s."}
+{"asctime": "2025-04-25 20:19:46,989", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 16s."}
+{"asctime": "2025-04-25 20:20:03,035", "levelname": "WARNING", "message": "Transient error StatusCode.UNAVAILABLE encountered while exporting traces to localhost:4317, retrying in 32s."}

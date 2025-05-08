@@ -1,0 +1,25 @@
+project_id,emp_id,project_name,role
+1,1,Project Alpha,Developer
+2,2,Project Beta,Manager
+3,3,Project Gamma,Analyst
+4,4,Project Delta,Marketer
+5,5,Project Epsilon,IT Support
+6,6,Project Zeta,Operations Lead
+7,7,Project Eta,Sales Executive
+8,8,Project Theta,Legal Advisor
+9,9,Project Iota,Procurement Specialist
+10,10,Project Kappa,Customer Support Lead
+11,11,Project Lambda,R&D Scientist
+12,12,Project Mu,Admin Coordinator
+13,1,Project Alpha,Developer
+14,2,Project Beta,Manager
+15,3,Project Gamma,Analyst
+16,4,Project Delta,Marketer
+17,5,Project Epsilon,IT Support
+18,6,Project Zeta,Operations Lead
+19,7,Project Eta,Sales Executive
+20,8,Project Theta,Legal Advisor
+21,9,Project Iota,Procurement Specialist
+22,10,Project Kappa,Customer Support Lead
+23,11,Project Lambda,R&D Scientist
+24,12,Project Mu,Admin Coordinator

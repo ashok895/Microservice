@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="sdkName" value="Python 3.12 (Microservice)" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="70a90a3a-ba70-4939-b0f4-f50d2d732c73" />
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
