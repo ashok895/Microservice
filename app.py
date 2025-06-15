@@ -1,8 +1,8 @@
-#app.py
 import logging
 from flask import Flask, request, jsonify
 from pythonjsonlogger import jsonlogger
 from neo4j import GraphDatabase
+from elasticsearch import Elasticsearch
 from opentelemetry import trace, metrics
 from opentelemetry.sdk.trace import TracerProvider
 from opentelemetry.sdk.trace.export import BatchSpanProcessor
@@ -26,6 +26,9 @@ NEO4J_USER = "neo4j"
 NEO4J_PASSWORD = "ashok123"
 
 driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
+
+# Configure Elasticsearch
+es = Elasticsearch(["http://localhost:9200"])
 
 # Create shared resource for all telemetry signals
 resource = Resource.create({
@@ -93,6 +96,7 @@ def fetch_employee_details(tx, emp_id):
     result = tx.run(query, emp_id=emp_id)
     return result.single()
 
+
 @app.route('/employee/details', methods=['GET'])
 def get_employee_details():
     """Fetch employee details along with projects and performance based on emp_id, username, and password."""
@@ -152,16 +156,27 @@ def get_employee_details():
             logging.error(f"Error in /employee/details: {e}")
             return jsonify({"error": "Internal server error"}), 500
 
+import time
+
+@app.before_request
+def start_timer():
+    """Record the start time of the request."""
+    request.start_time = time.time()
+
 @app.after_request
 def log_response_info(response):
-    """Log request and response details after each request."""
+    """Log request and response details after each request, including latency."""
+    end_time = time.time()
+    latency = end_time - request.start_time  # Calculate latency in seconds
+
     log_data = {
         "ip": request.remote_addr,
         "service_name": "employee-service",
         "status_code": response.status_code,
         "status_message": response.status,
         "request_payload": request.args.to_dict(),
-        "response_payload": response.get_json()
+        "response_payload": response.get_json(),
+        "latency": f"{latency:.3f} seconds"  # Format latency to 3 decimal places
     }
     logging.info(log_data)
     return response

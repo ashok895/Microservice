@@ -1,0 +1,8 @@
+Key: SCRUM-1
+Summary: The /projects endpoint does not validate the emp_id parameter properly, leading to potential issues when the parameter is missing or invalid.
+Description: The /projects endpoint in employee_projects.py only checks for the presence of the emp_id parameter but does not validate its format or ensure it is a valid employee ID. This can result in unnecessary database queries or errors when invalid data is passed.
+Issue Type: Bug
+Priority: Medium
+Status: To Do
+Created: 2025-05-26T15:49:11.434+0530
+Updated: 2025-05-27T19:01:39.140+0530
