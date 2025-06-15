@@ -1,6 +1,6 @@
 # security_anomaly_service.py
 from flask import Flask, jsonify, request
-from flask_cors import CORS # Import CORS
+from flask_cors import CORS #  CORS
 from elasticsearch import Elasticsearch
 import eland as ed
 import pandas as pd
